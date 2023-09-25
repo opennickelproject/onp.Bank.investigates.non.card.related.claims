@@ -1,4 +1,4 @@
-dependencies: null
+
 lifecycle:
   create:
     commands:
