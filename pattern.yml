@@ -1,29 +1,23 @@
-metadata:
-  pattern-id: onp.base.template
-  pattern-name: base-template
-  organisation-id: demobank
-  pattern-version: 1.0.0
-  pattern-description: some description here
-  pattern-categories: 
-              - bootstrap
 
 lifecycle:
   create:
     commands:
-      - bash lifecycle/create.sh
-
+    - bash lifecycle/create.sh
   delete:
     commands:
-      - bash lifecycle/delete.sh
-
+    - bash lifecycle/delete.sh
   update:
     commands:
-      - bash lifecycle/update.sh
-
+    - bash lifecycle/update.sh
   upgrade:
     commands:
-      - bash lifecycle/upgrade.sh
-
-dependencies:
-
-
+    - bash lifecycle/upgrade.sh
+metadata:
+  organisation-id: onp
+  pattern-categories:
+  - Other
+  pattern-description: Bank investigates non-card-related claims (e.g., ACH and ATM-related
+    claims). Informs fintech of resolution
+  pattern-id: onp.Bank.investigates.non.card.related.claims
+  pattern-name: Bank investigates non-card-related claims
+  pattern-version: 1.0.0
