@@ -13,7 +13,7 @@ lifecycle:
     commands:
     - bash lifecycle/upgrade.sh
 metadata:
-  organisation-id: onp
+  organisation-id: demobank
   pattern-categories:
   - Other
   pattern-description: Bank investigates non-card-related claims (e.g., ACH and ATM-related
